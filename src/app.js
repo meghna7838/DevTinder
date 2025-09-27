@@ -9,13 +9,13 @@ app.use("/test",(req,res)=>{
     res.send("Hello from server1");
 });
 
-app.use("/Meghna",(req,res)=>{
+app.use("/ab?cd",(req,res)=>{
     res.send("Hello this is meghna we love u");
 });
 
-app.use("/",(req,res)=>{
-    res.send("Hello from server");
-});
+// app.use("/",(req,res)=>{
+//     res.send("Hello from server");
+// });
 
 
 
